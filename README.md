@@ -1,7 +1,7 @@
-multicore
-=========
+matlab_multicore
+================
 
-This package provides an interface to execute jobs on multiple matlab processes. This is a modified version of the excellent package by Markus Buehren, originally published MATLAB Central with a BSD License.
+This package provides an interface to execute jobs on multiple matlab processes. This is a modified version of the excellent multicore package by Markus Buehren, originally published MATLAB Central with a BSD License.
 
 The code has been revised mainly to simplify the exception handling, slave process management, and the configuration. Here is a short summary of some such changes:
 * Ctrl-C in a slave process now allows another slave (or the master) to restart running on the job.
